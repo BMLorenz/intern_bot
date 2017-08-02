@@ -2,5 +2,5 @@
 
 set -e
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-export HUBOT_SLACK_TOKEN=xoxb-220905238132-mDM8sX5VCxjT8HFYsameXZHZ
-exec  node_modules/.bin/hubot --name "bot" "$@"
+export HUBOT_SLACK_TOKEN="xoxb-220905238132-mDM8sX5VCxjT8HFYsameXZHZ"
+exec  node_modules/.bin/hubot --name "Internbot" "$@"
